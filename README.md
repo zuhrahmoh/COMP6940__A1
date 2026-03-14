@@ -1,5 +1,5 @@
-# COMP6940 Assignment 1 – Part 1  
-## NYC Yellow Taxi (January 2023): Demand, Pricing, and Temporal Patterns
+## COMP6940 Assignment 1 – Part 1  
+### NYC Yellow Taxi (January 2023): Demand, Pricing, and Temporal Patterns
 
 This repository contains the implementation for **COMP6940: Big Data and Data Visualization – Assignment 1 (Part 1)**.
 
@@ -7,7 +7,7 @@ The objective of this project is to analyze **NYC Yellow Taxi trip data for Janu
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 project/
 ├── README.md  
@@ -27,7 +27,7 @@ project/
 
 ---
 
-# Dataset Sources
+## Dataset Sources
 
 The datasets used in this project come from the **NYC Taxi & Limousine Commission (TLC)**.
 
@@ -42,17 +42,17 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ---
 
-# How to Run the Project
+## How to Run the Project
 
 Clone the repository:
-
+```
 git clone https://github.com/zuhrahmoh/COMP6940__A1.git  
 cd COMP6940__A1  
-
+```
 Install required Python packages:
-
+```
 pip install -r requirements.txt  
-
+```
 Run the notebooks **in the following order**.
 
 ---
@@ -60,7 +60,7 @@ Run the notebooks **in the following order**.
 ## 1. Data Ingestion
 
 Notebook:  
-part1_taxi/01_ingest.ipynb
+`part1_taxi/01_ingest.ipynb`
 
 This notebook performs the following tasks:
 
@@ -82,7 +82,7 @@ data/raw/lookup/
 ## 2. Data Cleaning and Feature Engineering
 
 Notebook:  
-part1_taxi/02_clean_features.ipynb
+`part1_taxi/02_clean_features.ipynb`
 
 This notebook:
 
@@ -93,14 +93,14 @@ This notebook:
 - Reports the number of rows removed by each rule
 - Saves the curated dataset to:
 
-data/curated/part1_taxi_curated.parquet
+`data/curated/part1_taxi_curated.parquet`
 
 ---
 
 ## 3. Statistics, EDA, and Visualizations
 
 Notebook:  
-part1_taxi/03_stats_eda_viz.ipynb
+`part1_taxi/03_stats_eda_viz.ipynb`
 
 This notebook performs statistical analysis and exploratory data analysis.
 
@@ -132,7 +132,7 @@ This notebook performs statistical analysis and exploratory data analysis.
 
 ---
 
-# Curated Dataset
+## Curated Dataset
 
 The curated dataset contains cleaned and engineered features including:
 
@@ -169,11 +169,11 @@ The curated dataset contains cleaned and engineered features including:
 
 Detailed descriptions of each field are available in:
 
-part1_taxi/data_dictionary.pdf
+`part1_taxi/data_dictionary.pdf`
 
 ---
 
-# Reproducibility
+## Reproducibility
 
 To reproduce the entire analysis pipeline:
 
@@ -187,7 +187,7 @@ The notebooks will automatically download raw data, generate the curated dataset
 
 ---
 
-# Authors
+## Authors
 
 COMP6940 Assignment 1 – Group Submission
 
@@ -201,6 +201,6 @@ Group Members:
 
 ---
 
-# Academic Use
+### Academic Use
 
 This repository was created for academic coursework at **The University of the West Indies** as part of the COMP6940 Big Data and Data Visualization course.
